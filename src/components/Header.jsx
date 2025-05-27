@@ -8,7 +8,7 @@ function Header({ onToggleSidebar }) {
           <i className="bx bx-menu"></i>
         </button>
         <div className="flex items-center space-x-2">
-          <img className="w-10 h-10 rounded-lg" src={logo} />
+          <img className="w-10 h-10 rounded-lg" src={logo} alt="logo" />
           <p className="font-medium text-gray-800 uppercase">Media docena</p>
         </div>
       </div>

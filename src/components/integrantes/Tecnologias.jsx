@@ -7,10 +7,10 @@ function Tecnologias({ technologies }) {
     <>
       <section className="bg-white rounded-lg my-4">
         <div className="container px-6 py-10 mx-auto">
-          <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl">
+          <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl">
             Tecnologías con las que trabajo
           </h1>
-          <p class="mt-4 max-w-xs mx-auto text-center text-gray-500">
+          <p className="mt-4 max-w-xs mx-auto text-center text-gray-500">
             Estas son algunas de las tecnologías con las que realizo mis
             proyectos.
           </p>
