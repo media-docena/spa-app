@@ -18,6 +18,7 @@ function ProjectCard({ image, title, description, link }) {
             className="flex items-center -mx-1 mt-4 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             href={link}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <span className="mx-1">link al repo</span>
             <svg
