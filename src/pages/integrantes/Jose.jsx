@@ -9,6 +9,9 @@ import node from '../../assets/img/tech-logos/nodejs.svg';
 import csharp from '../../assets/img/tech-logos/csharp.svg';
 import git from '../../assets/img/tech-logos/git.svg';
 import mysql from '../../assets/img/tech-logos/mysql.svg';
+import pawsome from '../../assets/img/perfil-jose/proj-pawsome.jpeg';
+import gestionClinica from '../../assets/img/perfil-jose/proj-gestionclinica.jpg';
+import clubDeportivo from '../../assets/img/perfil-jose/proj-clubdeportivo.jpg';
 
 export default function Jose() {
   return (
@@ -163,21 +166,21 @@ export default function Jose() {
       <Projects
         projects={[
           {
-            image: 'src/assets/img/perfil-jose/proj-pawsome.jpeg',
+            image: `${pawsome}`,
             title: 'Pawsome E-Commerce App',
             description:
               'Tienda online desarrollada con React JS. Permite navegar productos, filtrarlos por categoría, agregarlos al carrito y finalizar la compra. Usa Firebase para autenticación y base de datos.',
             link: 'https://github.com/josefinacicchini/ecommerce-app',
           },
           {
-            image: 'src/assets/img/perfil-jose/proj-gestionclinica.jpg',
+            image: `${gestionClinica}`,
             title: 'Gestión de clínica de salud',
             description:
               'Aplicación de escritorio desarrollada en equipo de trabajo con las tecnologías .Net, Winforms y MySQL como base de datos. La aplicación tiene como objetivo gestionar registro de pacientes y citas, historial clínico y generar un reporte de honorarios del personal médico de la clínica.',
             link: 'https://github.com/media-docena/seprice',
           },
           {
-            image: 'src/assets/img/perfil-jose/proj-clubdeportivo.jpg',
+            image: `${clubDeportivo}`,
             title: 'Gestión de club deportivo',
             description:
               'Aplicación de escritorio desarrollada en equipo de trabajo con las tecnologías .Net, Winforms y MySQL como base de datos. La aplicación tiene como objetivo gestionar registro de socios y no socios de un club deportivo, gestionar el pago de cuota y servicios deportivos del club y generar el carnet de socios.',
