@@ -5,7 +5,7 @@ import Jose from './pages/integrantes/Jose';
 import Agus from './pages/integrantes/Agus';
 import Ro from './pages/integrantes/Ro';
 import Musica from './pages/Musica';
-import Series from './pages/Series';
+import Pelicula from './pages/Pelicula';
 import Error from './pages/Error';
 import Bitacora from './pages/Bitacora';
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
@@ -27,7 +27,7 @@ export default function App() {
             <Route path="agus" element={<Agus />} />
             <Route path="ro" element={<Ro />} />
             <Route path="musica" element={<Musica songs={songs} setSongs={setSongs} loading={loading} setLoading={setLoading} />} />
-            <Route path="series" element={<Series />} />
+            <Route path="pelicula" element={<Pelicula />} />
             <Route path="bitacora" element={<Bitacora />} />
             <Route path="*" element={<Error />} />
           </Route>

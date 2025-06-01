@@ -18,7 +18,7 @@ function Sidebar() {
 
       <SectionTitle title="Hobbies" />
       <NavLinkItem icon="bx bx-headphone" label="Música" path="/musica" />
-      <NavLinkItem icon="bx bx-film" label="Series" path="/series" />
+      <NavLinkItem icon="bx bx-film" label="Películas" path="/pelicula" />
 
       <SectionTitle title="Seguimiento" />
       <NavLinkItem icon="bx bx-file" label="Bitácora" path="/bitacora" />

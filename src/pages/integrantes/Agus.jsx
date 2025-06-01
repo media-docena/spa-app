@@ -4,10 +4,11 @@ import Skills from '../../components/integrantes/Skills';
 import Projects from '../../components/integrantes/Projects';
 import avatar02 from '../../assets/img/avatar02.png';
 import Tecnologias from '../../components/integrantes/Tecnologias';
-import react from '../../assets/img/tech-logos/react.svg';
-import node from '../../assets/img/tech-logos/nodejs.svg';
+import html from '../../assets/img/tech-logos/html.svg';
+import css from '../../assets/img/tech-logos/css.svg';
+import javascript from '../../assets/img/tech-logos/javascript.svg';
 import csharp from '../../assets/img/tech-logos/csharp.svg';
-import git from '../../assets/img/tech-logos/git.svg';
+import Java from '../../assets/img/tech-logos/java.svg';
 import mysql from '../../assets/img/tech-logos/mysql.svg'; 
 
 function Agus() {
@@ -15,19 +16,19 @@ function Agus() {
     <div>
       {/* Profile section */}
       <Profile
-        name="francisco agustín cruz guantay"
-        role="software developer"
-        description="lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus."
+        name="Francisco Agustín Cruz Guantay"
+        role="Software Developer"
+        description="Soy desarrollador de software en formación. Cuento con habilidades técnicas en diversas tecnologías y con competencias blandas que me permiten trabajar en equipo y adaptarme a distintos desafíos. Me gusta crear soluciones para problemas reales y aplicar buenas prácticas en cada desarrollo."
         image={avatar02}
       />
       {/* Skills section */}
       <Skills
-        subtitle={`lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.`}
+        subtitle={`Habilidades adquiridas durante mi formacion como desarrollador de software.`}
         skills={[
           {
-            title: 'lor lorem ipsum dolor sit amet',
+            title: 'Logica de Programación',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
+              'Adquirir esta habilidad me permite abordar desafíos complejos de manera estructurada para encontrar e implementar soluciones efectivas en los proyectos donde participe.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,9 +47,9 @@ function Agus() {
             ),
           },
           {
-            title: 'rem ipsum dolor sit amet',
+            title: 'Programación Orientada a Objetos',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
+              'Aprendí y aplique en proyectos los principios fundamentales de la programación orientada a objetos, como encapsulamiento, herencia, polimorfismo y abstracción. Lo que me permitió organizar el código de manera más eficiente y reutilizable.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,9 +68,9 @@ function Agus() {
             ),
           },
           {
-            title: 'lorrem ipsum dolor sit amet',
+            title: 'Modelado de Sistemas',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
+              'Adquirí conocimiento en el modelado de sistemas utilizando diagramas UML y aplique los mismos en diferentes herramientas realizando diagramas. Esto me permitió planificar y estructurar aplicaciones antes de programarlas.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,9 +89,9 @@ function Agus() {
             ),
           },
           {
-            title: 'dol lorem ipsum',
+            title: 'Bases de Datos Relacionales',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
+              'Aprendi a diseñar y gestionar bases de datos relacionales como MySQL. Aplique mis conocimiento adquiridos en diferentes proyectos, siempre priorizando la integridad de la información.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -115,9 +116,9 @@ function Agus() {
             ),
           },
           {
-            title: 'am lorem ipsum dolor sit amet',
+            title: 'SCRUM y Metodologías Ágiles',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
+              'Participé en proyectos utilizando la metodología SCRUM, organizando el trabajo en sprints y colaborando en equipo para cumplir objetivos en tiempos definidos.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -136,9 +137,9 @@ function Agus() {
             ),
           },
           {
-            title: 'sitlorem ipsum dolor sit amet',
+            title: 'Control de Versiones con Git',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
+              'Utilizo GIT para trabajar de forma colaborativa en proyectos junto a otros desarrolladores, gestionando el control de versiones y evitar conflictos en el código.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -165,26 +166,26 @@ function Agus() {
           {
             image:
               'https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80',
-            title: 'ipsum dolor sit amet',
+            title: 'Sistema de Gestión de Consultorios',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
-            link: '#',
+              'Se trata de un sistema informático para escritorio, cuenta con base de datos local, el mismo tiene distintas funcionalidades como el registro de personas por roles especificos, la gestión de turnos, el registro del proceso de atención médica e historia clinica, y la liquidación de honorarios para el personal médico contratado.',
+            link: 'https://github.com/media-docena/seprice',
           },
           {
             image:
               'https://images.unsplash.com/photo-1592424002053-21f369ad7fdb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            title: 'dolor sit amet lorem ipsum',
+            title: 'Sistema de Gestión de Consorcios',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
-            link: '#',
+              'Sistema informático destinado de escritorio con inminente migracion a web, se trata de un software que automatiza las tareas de un Administrador de Consorcios de la Ciudad Autonoma de Buenos Aires. Sus funciones principales son: registro de personas con diferenciación de roles, asignacion de usuarios, registro de gastos del consorcio, la generación de balances de expensas y recibos de pago, el registro de pagos de propietarios y la visualización del estado contable para su analisis.',
+            link: 'https://github.com/FACG-CODE/Sistema-de-Gestion-de-Consorcios',
           },
           {
             image:
               'https://images.unsplash.com/photo-1653387300291-bfa1eeb90e16?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            title: 'sit amet lorem ipsum dolor',
+            title: 'Mi Portafolio',
             description:
-              'lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.',
-            link: '#',
+              'Este portafolio web fue desarrollado para mostrar mi perfil profesional, habilidades, proyectos y tecnologías que manejo. Utilice HTML, CSS y JAVASCRIPT para su desarrollo. Es un espacio en constante actualización donde reflejo mi crecimiento y aprendizaje como desarrollador.',
+            link: 'https://github.com/FACG-CODE/PFO2---Portafolio',
           },
         ]}
       />
@@ -192,24 +193,24 @@ function Agus() {
       <Tecnologias
         technologies={[
           {
-            image: `${react}`,
-            name: 'React',
-          },
-          {
-            image: `${node}`,
-            name: 'NodeJS',
-          },
-          {
             image: `${csharp}`,
             name: 'C#',
           },
           {
-            image: `${git}`,
-            name: 'Git',
+            image: `${Java}`,
+            name: 'Java',
           },
           {
             image: `${mysql}`,
-            name: 'MySQL',
+            name: 'mySQL',
+          },
+          {
+            image: `${html}`,
+            name: 'HTML',
+          },
+          {
+            image: `${css}`,
+            name: 'CSS',
           },
         ]}
       />
