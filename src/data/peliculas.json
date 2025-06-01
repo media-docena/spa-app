@@ -1,0 +1,142 @@
+[
+  {
+    "titulo": "El Padrino",
+    "año": 1972,
+    "genero": "Crimen, Drama",
+    "descripcion": "La historia de la familia mafiosa Corleone y su lucha por el poder en Estados Unidos.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BZmNiNzM4MTctODI5YS00MzczLWE2MzktNzY4YmNjYjA5YmY1XkEyXkFqcGc@._V1_FMjpg_UX800_.jpg"
+  },
+  {
+    "titulo": "Forrest Gump",
+    "año": 1994,
+    "genero": "Drama, Romance",
+    "descripcion": "Un hombre con bajo coeficiente intelectual presencia eventos históricos mientras busca a su amor de la infancia.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BYTIxMzBjYzUtMDYwOC00OTFmLTllNmMtYTYxNjFhOTViM2YyXkEyXkFqcGc@._V1_FMjpg_UY3564_.jpg"
+  },
+  {
+    "titulo": "El Caballero de la Noche",
+    "año": 2008,
+    "genero": "Acción, Crimen",
+    "descripcion": "Batman enfrenta al Joker, un anarquista que amenaza con sumir a Gotham en el caos.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BY2FkODMwZjgtZmY0Ni00YzdiLWIzYjgtZWNjODkzNDRmZDQxXkEyXkFqcGc@._V1_FMjpg_UX1240_.jpg"
+  },
+  {
+    "titulo": "Pulp Fiction",
+    "año": 1994,
+    "genero": "Crimen, Drama",
+    "descripcion": "Historias entrelazadas de crimen y redención en Los Ángeles.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BMTU2Mjc0MTg4MF5BMl5BanBnXkFtZTcwOTA0MzU5Ng@@._V1_FMjpg_UY1652_.jpg"
+  },
+  {
+    "titulo": "La Lista de Schindler",
+    "año": 1993,
+    "genero": "Biografía, Drama",
+    "descripcion": "Un empresario alemán salva a más de mil judíos durante el Holocausto.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BMjA3MjE5OTgzNV5BMl5BanBnXkFtZTcwNDk5NDcxMQ@@._V1_FMjpg_UX277_.jpg"
+  },
+  {
+    "titulo": "Inception",
+    "año": 2010,
+    "genero": "Acción, Ciencia ficción",
+    "descripcion": "Un ladrón roba secretos infiltrándose en los sueños de sus víctimas.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_FMjpg_UY2048_.jpg"
+  },
+  {
+    "titulo": "Titanic",
+    "año": 1997,
+    "genero": "Drama, Romance",
+    "descripcion": "Un amor prohibido florece a bordo del trágico transatlántico Titanic.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BNjQ4NGU5ZWEtMjM1My00MTcxLWIzYWMtN2MwM2E2MWYzODk2XkEyXkFqcGc@._V1_FMjpg_UX220_.jpg"
+  },
+  {
+    "titulo": "Matrix",
+    "año": 1999,
+    "genero": "Acción, Ciencia ficción",
+    "descripcion": "Un hacker descubre que la realidad es una simulación creada por máquinas.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BNGE1YzI4NzMtZTUxNi00Y2I5LTg2MmQtODE0NThmYTFmMDk0XkEyXkFqcGc@._V1_FMjpg_UY2450_.jpg"
+  },
+  {
+    "titulo": "Parásitos",
+    "año": 2019,
+    "genero": "Drama, Suspenso",
+    "descripcion": "Una familia pobre se infiltra en el hogar de una familia rica con consecuencias imprevisibles.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BN2MxNDdmN2EtMDg5OS00NTlmLTk1YzItY2RkZTYyOGY1ZTQ0XkEyXkFqcGc@._V1_FMjpg_UX1123_.jpg"
+  },
+  {
+    "titulo": "Amelie",
+    "año": 2001,
+    "genero": "Comedia, Romance",
+    "descripcion": "Una joven parisina decide mejorar la vida de quienes la rodean con pequeños gestos.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BYTlmNDFkZDMtNDkyZS00YmFjLWFiZjEtODM0ZWYxYTZlMmQ4XkEyXkFqcGc@._V1_FMjpg_UX1028_.jpg"
+  },
+  {
+    "titulo": "Gladiador",
+    "año": 2000,
+    "genero": "Acción, Drama",
+    "descripcion": "Un general romano busca venganza tras ser traicionado por el emperador.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BYWJjYWJhZmMtOGM1My00YWQzLWFlNWEtZTQ3ZjM5NzAxZDNkXkEyXkFqcGc@._V1_FMjpg_UX763_.jpg"
+  },
+  {
+    "titulo": "Toy Story",
+    "año": 1995,
+    "genero": "Animación, Aventura",
+    "descripcion": "Los juguetes cobran vida cuando los humanos no están y enfrentan nuevos desafíos.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_FMjpg_UX1005_.jpg"
+  },
+  {
+    "titulo": "La La Land",
+    "año": 2016,
+    "genero": "Comedia, Drama, Música",
+    "descripcion": "Un pianista de jazz y una actriz luchan por sus sueños en Los Ángeles.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BOTJkODhmZjYtYjZlYi00YzA0LTlhZjQtYmY4YjJhMGIyYzVkXkEyXkFqcGc@._V1_FMjpg_UX701_.jpg"
+  },
+  {
+    "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+    "año": 2001,
+    "genero": "Aventura, Fantasía",
+    "descripcion": "Un hobbit inicia un peligroso viaje para destruir un anillo de poder.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BNDM0ZTRjNDAtMWFiOS00MjZiLThhZjYtNGQ0ODQ5MGE3Y2Y0XkEyXkFqcGc@._V1_FMjpg_UX720_.jpg"
+  },
+  {
+    "titulo": "Coco",
+    "año": 2017,
+    "genero": "Animación, Aventura, Familiar",
+    "descripcion": "Un niño mexicano viaja al mundo de los muertos para conocer su legado familiar.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BOGQzNDU3MWEtZjljOS00YWNlLWI1MGUtZDY3YTEwYWMyYmE3XkEyXkFqcGc@._V1_FMjpg_UX1050_.jpg"
+  },
+  {
+    "titulo": "El Gran Hotel Budapest",
+    "año": 2014,
+    "genero": "Comedia, Aventura",
+    "descripcion": "Las aventuras de un conserje y su joven aprendiz en un lujoso hotel europeo.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BOWU2ZjYxMDAtMmFiNS00NWY0LWFhYTQtZTVhODdlMTFhNTA0XkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg"
+  },
+  {
+    "titulo": "Joker",
+    "año": 2019,
+    "genero": "Drama, Crimen, Suspenso",
+    "descripcion": "La transformación de un hombre marginado en el icónico villano de Gotham.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BYjliNTJlYWYtYTU2Yy00YzI3LWI3NzgtOTJlMzg3YmQ3ZDRhXkEyXkFqcGc@._V1_FMjpg_UY2880_.jpg"
+  },
+  {
+    "titulo": "Wall-E",
+    "año": 2008,
+    "genero": "Animación, Ciencia ficción",
+    "descripcion": "Un robot solitario en un planeta Tierra desolado encuentra el amor y un propósito.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_FMjpg_UY2048_.jpg"
+  },
+  {
+    "titulo": "El Viaje de Chihiro",
+    "año": 2001,
+    "genero": "Animación, Fantasía",
+    "descripcion": "Una niña queda atrapada en un mundo espiritual y debe encontrar la forma de escapar.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BM2E2YzcwMTQtNWRlMC00ZGZlLWJhZTEtMDU4ZGIzMWI0NzJmXkEyXkFqcGc@._V1_FMjpg_UY3000_.jpg"
+  },
+  {
+    "titulo": "Requiem for a Dream",
+    "año": 2000,
+    "genero": "Drama, Psicológico",
+    "descripcion": "Cuatro personas ven sus vidas derrumbarse por la adicción y la desesperación.",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BYmE0NWE5MDYtZTZhZi00Y2JiLTgyNzctOWQxZTgzZTQ4MDhiXkEyXkFqcGc@._V1_FMjpg_UX600_.jpg"
+  }
+]
