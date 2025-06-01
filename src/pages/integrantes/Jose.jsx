@@ -1,14 +1,14 @@
-import React from "react";
-import Profile from "../../components/integrantes/Profile";
-import Skills from "../../components/integrantes/Skills";
-import Projects from "../../components/integrantes/Projects";
-import avatar01 from "../../assets/img/avatar01.png";
-import Tecnologias from "../../components/integrantes/Tecnologias";
-import react from "../../assets/img/tech-logos/react.svg";
-import node from "../../assets/img/tech-logos/nodejs.svg";
-import csharp from "../../assets/img/tech-logos/csharp.svg";
-import git from "../../assets/img/tech-logos/git.svg";
-import mysql from "../../assets/img/tech-logos/mysql.svg";
+import React from 'react';
+import Profile from '../../components/integrantes/Profile';
+import Skills from '../../components/integrantes/Skills';
+import Projects from '../../components/integrantes/Projects';
+import avatar01 from '../../assets/img/avatar01.png';
+import Tecnologias from '../../components/integrantes/Tecnologias';
+import react from '../../assets/img/tech-logos/react.svg';
+import node from '../../assets/img/tech-logos/nodejs.svg';
+import csharp from '../../assets/img/tech-logos/csharp.svg';
+import git from '../../assets/img/tech-logos/git.svg';
+import mysql from '../../assets/img/tech-logos/mysql.svg';
 
 export default function Jose() {
   return (
@@ -25,9 +25,9 @@ export default function Jose() {
         subtitle={`Habilidades y herramientas adquiridas a lo largo de mi formación`}
         skills={[
           {
-            title: "Desarrollo Frontend",
+            title: 'Desarrollo Frontend',
             description:
-              "Construyo interfaces claras, responsivas y funcionales con HTML, CSS y JavaScript. Me enfoco en la experiencia del usuario y el diseño accesible.",
+              'Construyo interfaces claras, responsivas y funcionales con HTML, CSS y JavaScript. Me enfoco en la experiencia del usuario y el diseño accesible.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,9 +46,9 @@ export default function Jose() {
             ),
           },
           {
-            title: "React",
+            title: 'React',
             description:
-              "Desarrollo SPAs con React creando componentes reutilizables, manejando estado y navegación con herramientas como React Router.",
+              'Desarrollo SPAs con React creando componentes reutilizables, manejando estado y navegación con herramientas como React Router.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,9 +67,9 @@ export default function Jose() {
             ),
           },
           {
-            title: "Diseño Web",
+            title: 'Diseño Web',
             description:
-              "Me interesa lograr una identidad visual coherente. Cuido la armonía en colores, tipografía y espaciado para construir sitios simples pero estéticos.",
+              'Me interesa lograr una identidad visual coherente. Cuido la armonía en colores, tipografía y espaciado para construir sitios simples pero estéticos.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,9 +88,9 @@ export default function Jose() {
             ),
           },
           {
-            title: "Versionado con Git",
+            title: 'Versionado con Git',
             description:
-              "Trabajo con Git y GitHub para organizar mis proyectos. Uso ramas, commits descriptivos y despliegue en GitHub Pages para compartir resultados.",
+              'Trabajo con Git y GitHub para organizar mis proyectos. Uso ramas, commits descriptivos y despliegue en GitHub Pages para compartir resultados.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -115,9 +115,9 @@ export default function Jose() {
             ),
           },
           {
-            title: "Herramientas prácticas",
+            title: 'Herramientas prácticas',
             description:
-              "Manejo herramientas como Figma, Canva, CapCut y Notion para diseñar, organizar y comunicar ideas de forma eficiente y visual.",
+              'Manejo herramientas como Figma, Canva, CapCut y Notion para diseñar, organizar y comunicar ideas de forma eficiente y visual.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -136,9 +136,9 @@ export default function Jose() {
             ),
           },
           {
-            title: "Aprendizaje continuo",
+            title: 'Aprendizaje continuo',
             description:
-              "Me entusiasma seguir aprendiendo. Investigo nuevas formas de mejorar cada proyecto y disfruto incorporar buenas prácticas al proceso de desarrollo.",
+              'Me entusiasma seguir aprendiendo. Investigo nuevas formas de mejorar cada proyecto y disfruto incorporar buenas prácticas al proceso de desarrollo.',
             icon: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -163,25 +163,25 @@ export default function Jose() {
       <Projects
         projects={[
           {
-            image: "src/assets/img/perfil-jose/proj-pawsome.jpeg",
-            title: "Pawsome E-Commerce App",
+            image: 'src/assets/img/perfil-jose/proj-pawsome.jpeg',
+            title: 'Pawsome E-Commerce App',
             description:
-              "Tienda online desarrollada con React JS. Permite navegar productos, filtrarlos por categoría, agregarlos al carrito y finalizar la compra. Usa Firebase para autenticación y base de datos.",
-            link: "https://github.com/josefinacicchini/ecommerce-app",
+              'Tienda online desarrollada con React JS. Permite navegar productos, filtrarlos por categoría, agregarlos al carrito y finalizar la compra. Usa Firebase para autenticación y base de datos.',
+            link: 'https://github.com/josefinacicchini/ecommerce-app',
           },
           {
-            image: "src/assets/img/perfil-jose/proj-gestionclinica.jpg",
-            title: "Gestión de clínica de salud",
+            image: 'src/assets/img/perfil-jose/proj-gestionclinica.jpg',
+            title: 'Gestión de clínica de salud',
             description:
-              "Aplicación de escritorio desarrollada en equipo de trabajo con las tecnologías .Net, Winforms y MySQL como base de datos. La aplicación tiene como objetivo gestionar registro de pacientes y citas, historial clínico y generar un reporte de honorarios del personal médico de la clínica.",
-            link: "https://github.com/media-docena/seprice",
+              'Aplicación de escritorio desarrollada en equipo de trabajo con las tecnologías .Net, Winforms y MySQL como base de datos. La aplicación tiene como objetivo gestionar registro de pacientes y citas, historial clínico y generar un reporte de honorarios del personal médico de la clínica.',
+            link: 'https://github.com/media-docena/seprice',
           },
           {
-            image: "src/assets/img/perfil-jose/proj-clubdeportivo.jpg",
-            title: "Gestión de club deportivo",
+            image: 'src/assets/img/perfil-jose/proj-clubdeportivo.jpg',
+            title: 'Gestión de club deportivo',
             description:
-              "Aplicación de escritorio desarrollada en equipo de trabajo con las tecnologías .Net, Winforms y MySQL como base de datos. La aplicación tiene como objetivo gestionar registro de socios y no socios de un club deportivo, gestionar el pago de cuota y servicios deportivos del club y generar el carnet de socios.",
-            link: "https://github.com/media-docena/sports-clubv2",
+              'Aplicación de escritorio desarrollada en equipo de trabajo con las tecnologías .Net, Winforms y MySQL como base de datos. La aplicación tiene como objetivo gestionar registro de socios y no socios de un club deportivo, gestionar el pago de cuota y servicios deportivos del club y generar el carnet de socios.',
+            link: 'https://github.com/media-docena/sports-clubv2',
           },
         ]}
       />
@@ -190,23 +190,23 @@ export default function Jose() {
         technologies={[
           {
             image: `${react}`,
-            name: "React",
+            name: 'React',
           },
           {
             image: `${node}`,
-            name: "NodeJS",
+            name: 'NodeJS',
           },
           {
             image: `${csharp}`,
-            name: "C#",
+            name: 'C#',
           },
           {
             image: `${git}`,
-            name: "Git",
+            name: 'Git',
           },
           {
             image: `${mysql}`,
-            name: "MySQL",
+            name: 'MySQL',
           },
         ]}
       />
