@@ -6,7 +6,6 @@ import avatar02 from '../../assets/img/avatar02.png';
 import Tecnologias from '../../components/integrantes/Tecnologias';
 import html from '../../assets/img/tech-logos/html.svg';
 import css from '../../assets/img/tech-logos/css.svg';
-import javascript from '../../assets/img/tech-logos/javascript.svg';
 import csharp from '../../assets/img/tech-logos/csharp.svg';
 import Java from '../../assets/img/tech-logos/java.svg';
 import mysql from '../../assets/img/tech-logos/mysql.svg'; 
