@@ -8,12 +8,12 @@ function Musica({ songs, setSongs, loading, setLoading }) {
     if (songs.length === 0) {
       setLoading(true);
       const apiUrl =
-        'https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX6aTaZa0K6VA&offset=0&limit=10';
+        'https://spotify81.p.rapidapi.com/playlist_tracks?id=37i9dQZF1DX6aTaZa0K6VA&offset=0&limit=10';
       const options = {
         method: 'GET',
         headers: {
           'X-RapidAPI-Key': `${apiKey}`,
-          'X-RapidAPI-Host': 'spotify23.p.rapidapi.com',
+          'X-RapidAPI-Host': 'spotify81.p.rapidapi.com',
         },
       };
       async function fetchSongs(apiUrl, options) {
